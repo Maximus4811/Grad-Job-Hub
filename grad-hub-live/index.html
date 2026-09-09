@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grad Hub Live — UK Grad Job Tracker</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap');
+  :root{
+    --bg:#14171d; --panel:#1b1f27; --panel-raised:#222732; --line:#2c313d;
+    --text:#ece9e2; --muted:#8d93a1; --amber:#e3a542; --amber-dim:#4a3c22;
+    --teal:#5b9db3; --green:#6fac7c; --purple:#9b8ac1; --radius:10px;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;font-size:14.5px;}
+  h1,h2,h3{font-family:'Space Grotesk',sans-serif;}
+  a{color:var(--teal);}
+  header{padding:26px 32px; border-bottom:1px solid var(--line); background:linear-gradient(180deg,#191d24,#14171d);}
+  .header-row{max-width:1280px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:14px;}
+  header h1{font-size:21px;margin:0;}
+  header p{margin:3px 0 0;color:var(--muted);font-size:13px;}
+  .pill{background:var(--panel);border:1px solid var(--line);border-radius:20px;padding:6px 14px;font-size:12.5px;color:var(--muted);}
+  .pill b{color:var(--amber);}
+  .wrap{max-width:1280px;margin:0 auto;padding:24px 32px 80px;}
+  .tabs{display:flex;gap:8px;margin-bottom:20px;border-bottom:1px solid var(--line);}
+  .tab{padding:9px 16px;cursor:pointer;color:var(--muted);font-size:13.5px;border-bottom:2px solid transparent;}
+  .tab.active{color:var(--amber);border-color:var(--amber);}
+  .toolbar{display:flex;gap:10px;margin-bottom:16px;flex-wrap:wrap;}
+  input[type=text],select{background:var(--panel-raised);border:1px solid var(--line);color:var(--text);border-radius:7px;padding:8px 11px;font-family:'Inter';font-size:13.5px;}
+  input[type=text]{flex:1;min-width:200px;}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px;}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px;}
+  .card:hover{border-color:var(--teal);}
+  .card .t{font-weight:600;font-size:14px;margin-bottom:4px;}
+  .card .c{color:var(--muted);font-size:12.5px;margin-bottom:6px;}
+  .tagrow{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px;}
+  .tag{font-size:10.5px;padding:2px 8px;border-radius:20px;background:var(--panel-raised);color:var(--muted);}
+  .tag-aero{color:#7fb7d4;} .tag-auto{color:#d6a55c;} .tag-mfg{color:#8bc09a;} .tag-fin{color:#b39fd8;}
+  table{width:100%;border-collapse:collapse;background:var(--panel);border:1px solid var(--line);border-radius:10px;overflow:hidden;}
+  th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);font-size:13px;}
+  th{color:var(--muted);font-weight:600;font-size:12px;}
+  select.stage-sel{background:var(--panel-raised);border:1px solid var(--line);color:var(--text);border-radius:6px;padding:5px 8px;font-size:12.5px;}
+  .empty{color:var(--muted);text-align:center;padding:40px;}
+  footer{max-width:1280px;margin:0 auto;padding:0 32px 40px;color:var(--muted);font-size:12px;}
+</style>
+</head>
+<body>
+<header>
+  <div class="header-row">
+    <div>
+      <h1>Grad Hub Live</h1>
+      <p>Auto-refreshed UK grad listings + your application tracker</p>
+    </div>
+    <div class="pill">Last updated: <b id="lastUpdated">loading…</b></div>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="tabs">
+    <div class="tab active" data-tab="live">Live listings</div>
+    <div class="tab" data-tab="predicted">Predicted opening windows</div>
+    <div class="tab" data-tab="tracker">My tracker</div>
+  </div>
+
+  <div id="tab-live">
+    <div class="toolbar">
+      <input type="text" id="liveSearch" placeholder="Search title, company, location…">
+      <select id="liveSector">
+        <option value="all">All sectors</option>
+        <option value="aero">Aerospace & Defence</option>
+        <option value="auto">Automotive</option>
+        <option value="mfg">Manufacturing & Industrial</option>
+        <option value="fin">Finance & Data</option>
+      </select>
+    </div>
+    <div class="grid" id="liveGrid"></div>
+  </div>
+
+  <div id="tab-predicted" style="display:none;">
+    <p style="color:var(--muted);max-width:640px;">
+      Based on typical UK graduate-recruitment cycles. Most large schemes open in autumn for the following year's intake;
+      exact dates shift year to year, so use this as a planning guide and check each careers page close to the window.
+    </p>
+    <table id="predictedTable"></table>
+  </div>
+
+  <div id="tab-tracker" style="display:none;">
+    <p style="color:var(--muted);">Companies you've marked from Live listings appear here. Stored in this browser only.</p>
+    <table id="trackerTable"></table>
+  </div>
+</div>
+
+<footer>
+  Job data pulled from the Reed and Adzuna public job-search APIs by a scheduled GitHub Action. Always verify details on the employer's own careers page before applying.
+</footer>
+
+<script>
+const SECTORS = {
+  aero:{label:'Aerospace & Defence', cls:'tag-aero'},
+  auto:{label:'Automotive', cls:'tag-auto'},
+  mfg:{label:'Manufacturing & Industrial', cls:'tag-mfg'},
+  fin:{label:'Finance & Data', cls:'tag-fin'},
+};
+
+const PREDICTED = [
+  {company:'Rolls-Royce', sector:'aero', opens:'Sept', closes:'Jan (rolling, fills early)'},
+  {company:'BAE Systems', sector:'aero', opens:'Sept', closes:'Jan'},
+  {company:'Airbus UK', sector:'aero', opens:'Oct', closes:'Dec'},
+  {company:'Leonardo UK', sector:'aero', opens:'Sept', closes:'Nov'},
+  {company:'GKN Aerospace', sector:'aero', opens:'Sept', closes:'Dec'},
+  {company:'Babcock International', sector:'aero', opens:'Sept', closes:'Feb (rolling)'},
+  {company:'GE Aerospace UK', sector:'aero', opens:'Sept', closes:'Nov'},
+  {company:'JLR (Jaguar Land Rover)', sector:'auto', opens:'Sept', closes:'Jan (rolling)'},
+  {company:'Toyota Manufacturing UK', sector:'auto', opens:'Oct', closes:'Dec'},
+  {company:'Nissan Sunderland', sector:'auto', opens:'Sept', closes:'Dec'},
+  {company:'Aston Martin Lagonda', sector:'auto', opens:'Oct', closes:'Dec'},
+  {company:'Siemens UK', sector:'mfg', opens:'Sept', closes:'Feb (rolling)'},
+  {company:'Unilever UK', sector:'mfg', opens:'Sept', closes:'Nov'},
+  {company:'Jacobs Engineering', sector:'mfg', opens:'Sept', closes:'Rolling year-round'},
+  {company:'Deloitte UK', sector:'fin', opens:'Aug', closes:'Nov (courses fill first)'},
+  {company:'PwC UK', sector:'fin', opens:'Aug', closes:'Nov'},
+  {company:'EY UK', sector:'fin', opens:'Aug', closes:'Nov'},
+  {company:'KPMG UK', sector:'fin', opens:'Sept', closes:'Dec'},
+  {company:'Bank of England', sector:'fin', opens:'Sept', closes:'Nov'},
+  {company:'FCA', sector:'fin', opens:'Sept', closes:'Nov'},
+  {company:'NatWest Group', sector:'fin', opens:'Sept', closes:'Jan (rolling)'},
+  {company:'Lloyds Banking Group', sector:'fin', opens:'Sept', closes:'Jan (rolling)'},
+];
+
+let jobsData = {updated:null, jobs:[]};
+let tracked = JSON.parse(localStorage.getItem('gradhub-live-tracked') || '{}');
+
+async function loadJobs(){
+  try{
+    const res = await fetch('data/jobs.json', {cache:'no-store'});
+    jobsData = await res.json();
+  }catch(e){
+    jobsData = {updated:null, jobs:[]};
+  }
+  document.getElementById('lastUpdated').textContent = jobsData.updated
+    ? new Date(jobsData.updated).toLocaleString('en-GB', {dateStyle:'medium', timeStyle:'short'})
+    : 'not yet run — trigger the GitHub Action';
+  renderLive();
+  renderTracker();
+}
+
+function renderLive(){
+  const q = (document.getElementById('liveSearch').value || '').toLowerCase();
+  const sector = document.getElementById('liveSector').value;
+  const grid = document.getElementById('liveGrid');
+  let jobs = jobsData.jobs || [];
+  if(sector!=='all') jobs = jobs.filter(j=>j.sector===sector);
+  if(q) jobs = jobs.filter(j =>
+    (j.title||'').toLowerCase().includes(q) ||
+    (j.company||'').toLowerCase().includes(q) ||
+    (j.location||'').toLowerCase().includes(q)
+  );
+  if(jobs.length===0){
+    grid.innerHTML = `<div class="empty">No live data yet. Add your API keys as repo secrets and run the "Update job listings" workflow from the Actions tab (or wait for the daily schedule).</div>`;
+    return;
+  }
+  grid.innerHTML = jobs.slice(0,300).map(j=>{
+    const sec = SECTORS[j.sector] || {label:j.sector, cls:''};
+    const salary = j.salary_min ? `£${Math.round(j.salary_min).toLocaleString()}${j.salary_max && j.salary_max!==j.salary_min ? '–£'+Math.round(j.salary_max).toLocaleString() : ''}` : '';
+    const id = j.id;
+    const isTracked = !!tracked[id];
+    return `<div class="card">
+      <div class="t">${j.title||''}</div>
+      <div class="c">${j.company||''} · ${j.location||''}</div>
+      <div class="c">${salary}</div>
+      <div class="tagrow">
+        <span class="tag ${sec.cls}">${sec.label}</span>
+        <span class="tag">${j.source||''}</span>
+      </div>
+      <div style="margin-top:10px;display:flex;gap:8px;">
+        <a href="${j.url}" target="_blank" rel="noopener">Open listing ↗</a>
+        <a href="#" data-id="${id}" class="track-link" style="margin-left:auto;">${isTracked ? 'Tracked ✓' : '+ Track'}</a>
+      </div>
+    </div>`;
+  }).join('');
+  grid.querySelectorAll('.track-link').forEach(a=>{
+    a.onclick = (e)=>{
+      e.preventDefault();
+      const id = a.dataset.id;
+      const job = jobsData.jobs.find(j=>j.id===id);
+      if(tracked[id]){ delete tracked[id]; }
+      else{ tracked[id] = {...job, stage:'not_started'}; }
+      localStorage.setItem('gradhub-live-tracked', JSON.stringify(tracked));
+      renderLive(); renderTracker();
+    };
+  });
+}
+
+function renderPredicted(){
+  const table = document.getElementById('predictedTable');
+  let html = `<tr><th>Company</th><th>Sector</th><th>Typical opens</th><th>Typical closes</th></tr>`;
+  PREDICTED.forEach(p=>{
+    html += `<tr><td>${p.company}</td><td>${SECTORS[p.sector].label}</td><td>${p.opens}</td><td>${p.closes}</td></tr>`;
+  });
+  table.innerHTML = html;
+}
+
+function renderTracker(){
+  const table = document.getElementById('trackerTable');
+  const ids = Object.keys(tracked);
+  if(ids.length===0){
+    table.innerHTML = `<tr><td class="empty">Nothing tracked yet — hit "+ Track" on a listing.</td></tr>`;
+    return;
+  }
+  const stages = ['not_started','researching','applied','interview','offer'];
+  const labels = {not_started:'Not started', researching:'Researching', applied:'Applied', interview:'Interview/AC', offer:'Offer/Closed'};
+  let html = `<tr><th>Role</th><th>Company</th><th>Stage</th><th></th></tr>`;
+  ids.forEach(id=>{
+    const t = tracked[id];
+    html += `<tr>
+      <td>${t.title||''}</td>
+      <td>${t.company||''}</td>
+      <td><select class="stage-sel" data-id="${id}">
+        ${stages.map(s=>`<option value="${s}" ${t.stage===s?'selected':''}>${labels[s]}</option>`).join('')}
+      </select></td>
+      <td><a href="${t.url}" target="_blank" rel="noopener">Open ↗</a></td>
+    </tr>`;
+  });
+  table.innerHTML = html;
+  table.querySelectorAll('.stage-sel').forEach(sel=>{
+    sel.onchange = ()=>{
+      tracked[sel.dataset.id].stage = sel.value;
+      localStorage.setItem('gradhub-live-tracked', JSON.stringify(tracked));
+    };
+  });
+}
+
+document.querySelectorAll('.tab').forEach(tab=>{
+  tab.onclick = ()=>{
+    document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
+    tab.classList.add('active');
+    ['live','predicted','tracker'].forEach(id=>{
+      document.getElementById('tab-'+id).style.display = (id===tab.dataset.tab) ? 'block':'none';
+    });
+  };
+});
+
+document.getElementById('liveSearch').addEventListener('input', renderLive);
+document.getElementById('liveSector').addEventListener('change', renderLive);
+
+renderPredicted();
+loadJobs();
+</script>
+</body>
+</html>
