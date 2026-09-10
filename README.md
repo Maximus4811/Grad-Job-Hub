@@ -1,4 +1,4 @@
-# Grad Hub Live
+# Grad Hub Live - https://maximus4811.github.io/Grad-Job-Hub/
 
 A self-updating UK graduate job tracker: a GitHub Action pulls live listings
 from the Reed and Adzuna job APIs on a schedule, writes them to `data/jobs.json`,
