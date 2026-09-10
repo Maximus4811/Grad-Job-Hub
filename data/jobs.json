@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-10T11:22:30.722624+00:00",
+  "updated": "2026-09-10T13:21:58.052922+00:00",
   "count": 47,
   "jobs": [
     {
@@ -91,7 +91,7 @@
       "title": "AGGP 2027 - Graduate - Finance",
       "company": "Airbus",
       "location": "Bristol, South West England",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5867225933?se=-Ige6Amt8RG8fPp3L-VWzw&utm_medium=api&utm_source=21e0ce2d&v=53FCABD7619015A76AED2A0FD2A0B113609497BA",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5867225933?se=gk0tmBqt8RGQBP4-jEPHYw&utm_medium=api&utm_source=21e0ce2d&v=53FCABD7619015A76AED2A0FD2A0B113609497BA",
       "salary_min": 28605.64,
       "salary_max": 28605.64,
       "posted_date": "2026-09-02T17:00:34Z",
@@ -507,6 +507,18 @@
       "sector": "fin"
     },
     {
+      "id": "reed-57252953",
+      "title": "Freedom of Information Solicitor",
+      "company": "The Legists",
+      "location": "Greater Manchester",
+      "url": "https://www.reed.co.uk/jobs/freedom-of-information-solicitor/57252953",
+      "salary_min": 50001.0,
+      "salary_max": 65000.0,
+      "posted_date": "18/08/2026",
+      "source": "Reed",
+      "sector": "fin"
+    },
+    {
       "id": "reed-57326886",
       "title": "Graduate Management Trainee - Stockport",
       "company": "Enterprise Mobility",
@@ -539,18 +551,6 @@
       "salary_min": null,
       "salary_max": null,
       "posted_date": "09/09/2026",
-      "source": "Reed",
-      "sector": "fin"
-    },
-    {
-      "id": "reed-57314614",
-      "title": "Graduate Data Analyst",
-      "company": "Consula Group LTD",
-      "location": "Manchester",
-      "url": "https://www.reed.co.uk/jobs/graduate-data-analyst/57314614",
-      "salary_min": 48000.0,
-      "salary_max": 52000.0,
-      "posted_date": "06/09/2026",
       "source": "Reed",
       "sector": "fin"
     },
