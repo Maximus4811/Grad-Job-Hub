@@ -1,19 +1,7 @@
 {
-  "updated": "2026-09-10T23:05:26.873143+00:00",
+  "updated": "2026-09-11T11:24:10.581209+00:00",
   "count": 46,
   "jobs": [
-    {
-      "id": "reed-57175686",
-      "title": "Trainee Recruitment Consultant - Sales Experience Needed",
-      "company": "Virtus Talent",
-      "location": "M11AD",
-      "url": "https://www.reed.co.uk/jobs/trainee-recruitment-consultant-sales-experience-needed/57175686",
-      "salary_min": 27000.0,
-      "salary_max": 47000.0,
-      "posted_date": "30/07/2026",
-      "source": "Reed",
-      "sector": "mfg"
-    },
     {
       "id": "reed-57281103",
       "title": "Legal Advisor",
@@ -85,6 +73,18 @@
       "posted_date": "2026-09-07T02:09:05Z",
       "source": "Adzuna",
       "sector": "aero"
+    },
+    {
+      "id": "adzuna-5867225933",
+      "title": "AGGP 2027 - Graduate - Finance",
+      "company": "Airbus",
+      "location": "Bristol, South West England",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5867225933?se=MIcSTtOt8RG27Kmw89oz_A&utm_medium=api&utm_source=21e0ce2d&v=53FCABD7619015A76AED2A0FD2A0B113609497BA",
+      "salary_min": 28605.64,
+      "salary_max": 28605.64,
+      "posted_date": "2026-09-02T17:00:34Z",
+      "source": "Adzuna",
+      "sector": "fin"
     },
     {
       "id": "adzuna-5837727138",
@@ -507,11 +507,11 @@
       "sector": "fin"
     },
     {
-      "id": "reed-57326886",
-      "title": "Graduate Management Trainee - Stockport",
+      "id": "reed-57326824",
+      "title": "Graduate Management Trainee - Bolton",
       "company": "Enterprise Mobility",
-      "location": "SK41HJ",
-      "url": "https://www.reed.co.uk/jobs/graduate-management-trainee-stockport/57326886",
+      "location": "BL32ND",
+      "url": "https://www.reed.co.uk/jobs/graduate-management-trainee-bolton/57326824",
       "salary_min": null,
       "salary_max": null,
       "posted_date": "09/09/2026",
@@ -519,11 +519,11 @@
       "sector": "fin"
     },
     {
-      "id": "reed-57326824",
-      "title": "Graduate Management Trainee - Bolton",
+      "id": "reed-57326886",
+      "title": "Graduate Management Trainee - Stockport",
       "company": "Enterprise Mobility",
-      "location": "BL32ND",
-      "url": "https://www.reed.co.uk/jobs/graduate-management-trainee-bolton/57326824",
+      "location": "SK41HJ",
+      "url": "https://www.reed.co.uk/jobs/graduate-management-trainee-stockport/57326886",
       "salary_min": null,
       "salary_max": null,
       "posted_date": "09/09/2026",
