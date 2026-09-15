@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-14T12:51:23.160847+00:00",
+  "updated": "2026-09-15T11:46:31.530747+00:00",
   "count": 47,
   "jobs": [
     {
@@ -43,7 +43,7 @@
       "title": "2027 Technology Analyst AI and Data Science Graduate Apprenticeship Programme Glasgow",
       "company": "Barclays",
       "location": "Glasgow, Scotland",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5881127555?se=9oob_Tqw8RGb2aMwd-6H3g&utm_medium=api&utm_source=21e0ce2d&v=F02378973655791FC4D5D71F1320CF1D6EE77308",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5881127555?se=0MvjF_uw8RGgyuG9y2r9nQ&utm_medium=api&utm_source=21e0ce2d&v=F02378973655791FC4D5D71F1320CF1D6EE77308",
       "salary_min": 25200,
       "salary_max": 25200,
       "posted_date": "2026-09-12T16:50:59Z",
@@ -91,7 +91,7 @@
       "title": "AGGP 2027 - Graduate - Finance",
       "company": "Airbus",
       "location": "Bristol, South West England",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5867225933?se=vopA_Dqw8RGb2aMwd-6H3g&utm_medium=api&utm_source=21e0ce2d&v=53FCABD7619015A76AED2A0FD2A0B113609497BA",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5867225933?se=WAGMFvuw8RGVjZXZEg8iqQ&utm_medium=api&utm_source=21e0ce2d&v=53FCABD7619015A76AED2A0FD2A0B113609497BA",
       "salary_min": 28605.64,
       "salary_max": 28605.64,
       "posted_date": "2026-09-02T17:00:34Z",
@@ -243,18 +243,6 @@
       "sector": "mfg"
     },
     {
-      "id": "reed-57252949",
-      "title": "Data Protection Barrister",
-      "company": "The Legists",
-      "location": "Greater Manchester",
-      "url": "https://www.reed.co.uk/jobs/data-protection-barrister/57252949",
-      "salary_min": 50001.0,
-      "salary_max": 65000.0,
-      "posted_date": "18/08/2026",
-      "source": "Reed",
-      "sector": "fin"
-    },
-    {
       "id": "reed-57252952",
       "title": "Data Protection Lawyer",
       "company": "The Legists",
@@ -272,6 +260,18 @@
       "company": "The Legists",
       "location": "Greater Manchester",
       "url": "https://www.reed.co.uk/jobs/data-protection-solicitor/57252945",
+      "salary_min": 50001.0,
+      "salary_max": 65000.0,
+      "posted_date": "18/08/2026",
+      "source": "Reed",
+      "sector": "fin"
+    },
+    {
+      "id": "reed-57252949",
+      "title": "Data Protection Barrister",
+      "company": "The Legists",
+      "location": "Greater Manchester",
+      "url": "https://www.reed.co.uk/jobs/data-protection-barrister/57252949",
       "salary_min": 50001.0,
       "salary_max": 65000.0,
       "posted_date": "18/08/2026",
@@ -507,11 +507,11 @@
       "sector": "fin"
     },
     {
-      "id": "reed-57326886",
-      "title": "Graduate Management Trainee - Stockport",
+      "id": "reed-57326824",
+      "title": "Graduate Management Trainee - Bolton",
       "company": "Enterprise Mobility",
-      "location": "SK41HJ",
-      "url": "https://www.reed.co.uk/jobs/graduate-management-trainee-stockport/57326886",
+      "location": "BL32ND",
+      "url": "https://www.reed.co.uk/jobs/graduate-management-trainee-bolton/57326824",
       "salary_min": null,
       "salary_max": null,
       "posted_date": "09/09/2026",
@@ -519,11 +519,11 @@
       "sector": "fin"
     },
     {
-      "id": "reed-57326824",
-      "title": "Graduate Management Trainee - Bolton",
+      "id": "reed-57326886",
+      "title": "Graduate Management Trainee - Stockport",
       "company": "Enterprise Mobility",
-      "location": "BL32ND",
-      "url": "https://www.reed.co.uk/jobs/graduate-management-trainee-bolton/57326824",
+      "location": "SK41HJ",
+      "url": "https://www.reed.co.uk/jobs/graduate-management-trainee-stockport/57326886",
       "salary_min": null,
       "salary_max": null,
       "posted_date": "09/09/2026",
