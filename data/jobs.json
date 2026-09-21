@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-20T11:27:02.019849+00:00",
-  "count": 26,
+  "updated": "2026-09-21T12:51:45.552380+00:00",
+  "count": 27,
   "jobs": [
     {
       "id": "reed-57281103",
@@ -39,6 +39,18 @@
       "sector": "fin"
     },
     {
+      "id": "adzuna-5892806916",
+      "title": "Employee Development Lead",
+      "company": "GTC Recruitment",
+      "location": "Bolham, Retford",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5892806916?se=HmMeLru18RGV8c4W9n5Z0w&utm_medium=api&utm_source=21e0ce2d&v=314BF8BE7A669D87AC94C7F7C19676F5D85E63B9",
+      "salary_min": 65000,
+      "salary_max": 91000,
+      "posted_date": "2026-09-21T13:22:58Z",
+      "source": "Adzuna",
+      "sector": "mfg"
+    },
+    {
       "id": "adzuna-5891553788",
       "title": "2027 Data Scientist Graduate Programme - Insurance Consulting - London/Reigate",
       "company": "WTW",
@@ -55,7 +67,7 @@
       "title": "Manufacturing Test Engineer - Graduate Programme 2027",
       "company": "MBDA",
       "location": "Stevenage, Hertfordshire",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5885917271?se=fpYfLua08RGSI57gYuD12g&utm_medium=api&utm_source=21e0ce2d&v=0A00275D6D8879A77B327448B2F4A7D21208B19F",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5885917271?se=HmMeLru18RGV8c4W9n5Z0w&utm_medium=api&utm_source=21e0ce2d&v=0A00275D6D8879A77B327448B2F4A7D21208B19F",
       "salary_min": 36000,
       "salary_max": 36000,
       "posted_date": "2026-09-16T10:41:20Z",
@@ -67,7 +79,7 @@
       "title": "2027 Technology Analyst AI and Data Science Graduate Apprenticeship Programme Glasgow",
       "company": "Barclays",
       "location": "Glasgow, Scotland",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5881127555?se=oBnaMua08RGSI57gYuD12g&utm_medium=api&utm_source=21e0ce2d&v=F02378973655791FC4D5D71F1320CF1D6EE77308",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5881127555?se=MnxBM7u18RGmo_gkoqdFBQ&utm_medium=api&utm_source=21e0ce2d&v=F02378973655791FC4D5D71F1320CF1D6EE77308",
       "salary_min": 25200,
       "salary_max": 25200,
       "posted_date": "2026-09-12T16:50:59Z",
@@ -115,7 +127,7 @@
       "title": "AGGP 2027 - Graduate - Finance",
       "company": "Airbus",
       "location": "Bristol, South West England",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5867225933?se=SE_kMea08RGtwufuHk0KBg&utm_medium=api&utm_source=21e0ce2d&v=53FCABD7619015A76AED2A0FD2A0B113609497BA",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5867225933?se=UGA7Mru18RGhpt24NKnzbw&utm_medium=api&utm_source=21e0ce2d&v=53FCABD7619015A76AED2A0FD2A0B113609497BA",
       "salary_min": 28605.64,
       "salary_max": 28605.64,
       "posted_date": "2026-09-02T17:00:34Z",
@@ -267,18 +279,6 @@
       "sector": "fin"
     },
     {
-      "id": "reed-57326824",
-      "title": "Graduate Management Trainee - Bolton",
-      "company": "Enterprise Mobility",
-      "location": "BL32ND",
-      "url": "https://www.reed.co.uk/jobs/graduate-management-trainee-bolton/57326824",
-      "salary_min": null,
-      "salary_max": null,
-      "posted_date": "09/09/2026",
-      "source": "Reed",
-      "sector": "fin"
-    },
-    {
       "id": "reed-57326886",
       "title": "Graduate Management Trainee - Stockport",
       "company": "Enterprise Mobility",
@@ -296,6 +296,18 @@
       "company": "Enterprise Mobility",
       "location": "M112PL",
       "url": "https://www.reed.co.uk/jobs/graduate-management-trainee-manchester/57326997",
+      "salary_min": null,
+      "salary_max": null,
+      "posted_date": "09/09/2026",
+      "source": "Reed",
+      "sector": "fin"
+    },
+    {
+      "id": "reed-57326824",
+      "title": "Graduate Management Trainee - Bolton",
+      "company": "Enterprise Mobility",
+      "location": "BL32ND",
+      "url": "https://www.reed.co.uk/jobs/graduate-management-trainee-bolton/57326824",
       "salary_min": null,
       "salary_max": null,
       "posted_date": "09/09/2026",
