@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-24T11:48:49.838531+00:00",
-  "count": 26,
+  "updated": "2026-09-25T11:53:45.520504+00:00",
+  "count": 27,
   "jobs": [
     {
       "id": "reed-57281103",
@@ -11,6 +11,42 @@
       "salary_min": 50001.0,
       "salary_max": 65000.0,
       "posted_date": "27/08/2026",
+      "source": "Reed",
+      "sector": "fin"
+    },
+    {
+      "id": "reed-57388722",
+      "title": "Knowledge Lawyer - Planning",
+      "company": "The Legists",
+      "location": "Greater Manchester",
+      "url": "https://www.reed.co.uk/jobs/knowledge-lawyer-planning/57388722",
+      "salary_min": 70001.0,
+      "salary_max": 80000.0,
+      "posted_date": "24/09/2026",
+      "source": "Reed",
+      "sector": "fin"
+    },
+    {
+      "id": "reed-57388715",
+      "title": "Planning Knowledge Development Lawyer",
+      "company": "The Legists",
+      "location": "Greater Manchester",
+      "url": "https://www.reed.co.uk/jobs/planning-knowledge-development-lawyer/57388715",
+      "salary_min": 70001.0,
+      "salary_max": 80000.0,
+      "posted_date": "24/09/2026",
+      "source": "Reed",
+      "sector": "fin"
+    },
+    {
+      "id": "reed-57388738",
+      "title": "Knowledge Development Lawyer - Planning",
+      "company": "The Legists",
+      "location": "Greater Manchester",
+      "url": "https://www.reed.co.uk/jobs/knowledge-development-lawyer-planning/57388738",
+      "salary_min": 70001.0,
+      "salary_max": 80000.0,
+      "posted_date": "24/09/2026",
       "source": "Reed",
       "sector": "fin"
     },
@@ -55,7 +91,7 @@
       "title": "Manufacturing Test Engineer - Graduate Programme 2027",
       "company": "MBDA",
       "location": "Stevenage, Hertfordshire",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5885917271?se=5oqm4w248RGnue_PVod2KQ&utm_medium=api&utm_source=21e0ce2d&v=0A00275D6D8879A77B327448B2F4A7D21208B19F",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5885917271?se=GkQtvte48RGn_4XFqBhHEw&utm_medium=api&utm_source=21e0ce2d&v=0A00275D6D8879A77B327448B2F4A7D21208B19F",
       "salary_min": 36000,
       "salary_max": 36000,
       "posted_date": "2026-09-16T10:41:20Z",
@@ -67,7 +103,7 @@
       "title": "2027 Technology Analyst AI and Data Science Graduate Apprenticeship Programme Glasgow",
       "company": "Barclays",
       "location": "Glasgow, Scotland",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5881127555?se=5jcT6A248RGaVc0dtuTNNA&utm_medium=api&utm_source=21e0ce2d&v=F02378973655791FC4D5D71F1320CF1D6EE77308",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5881127555?se=Niu8wte48RGBrORrHNYWQg&utm_medium=api&utm_source=21e0ce2d&v=F02378973655791FC4D5D71F1320CF1D6EE77308",
       "salary_min": 25200,
       "salary_max": 25200,
       "posted_date": "2026-09-12T16:50:59Z",
@@ -115,7 +151,7 @@
       "title": "AGGP 2027 - Graduate - Finance",
       "company": "Airbus",
       "location": "Bristol, South West England",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5867225933?se=fL8y5w248RGnue_PVod2KQ&utm_medium=api&utm_source=21e0ce2d&v=53FCABD7619015A76AED2A0FD2A0B113609497BA",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5867225933?se=Th-xwde48RGBC4taRUb0kg&utm_medium=api&utm_source=21e0ce2d&v=53FCABD7619015A76AED2A0FD2A0B113609497BA",
       "salary_min": 28605.64,
       "salary_max": 28605.64,
       "posted_date": "2026-09-02T17:00:34Z",
@@ -159,18 +195,6 @@
       "sector": "mfg"
     },
     {
-      "id": "adzuna-5829336010",
-      "title": "Graduate Process Engineer - Water - 2027 (High Wycombe)",
-      "company": "Stantec UK Careers",
-      "location": "Hughenden, High Wycombe",
-      "url": "https://www.adzuna.co.uk/jobs/details/5829336010?utm_medium=api&utm_source=21e0ce2d",
-      "salary_min": 36331.57,
-      "salary_max": 36331.57,
-      "posted_date": "2026-08-05T17:41:51Z",
-      "source": "Adzuna",
-      "sector": "mfg"
-    },
-    {
       "id": "adzuna-5828558679",
       "title": "Graduate Process Engineer - Water - 2027 (Bristol)",
       "company": "Stantec",
@@ -207,18 +231,6 @@
       "sector": "mfg"
     },
     {
-      "id": "adzuna-5828558579",
-      "title": "Graduate Process Engineer - Water - 2027 (High Wycombe)",
-      "company": "Stantec",
-      "location": "High Wycombe, Buckinghamshire",
-      "url": "https://www.adzuna.co.uk/jobs/details/5828558579?utm_medium=api&utm_source=21e0ce2d",
-      "salary_min": 38839.94,
-      "salary_max": 38839.94,
-      "posted_date": "2026-08-05T02:20:19Z",
-      "source": "Adzuna",
-      "sector": "mfg"
-    },
-    {
       "id": "reed-57363242",
       "title": "Talent Associate",
       "company": "BrighterBox",
@@ -231,11 +243,11 @@
       "sector": "fin"
     },
     {
-      "id": "reed-57252956",
-      "title": "Knowledge Barrister",
+      "id": "reed-57252953",
+      "title": "Freedom of Information Solicitor",
       "company": "The Legists",
       "location": "Greater Manchester",
-      "url": "https://www.reed.co.uk/jobs/knowledge-barrister/57252956",
+      "url": "https://www.reed.co.uk/jobs/freedom-of-information-solicitor/57252953",
       "salary_min": 50001.0,
       "salary_max": 65000.0,
       "posted_date": "18/08/2026",
@@ -243,11 +255,11 @@
       "sector": "fin"
     },
     {
-      "id": "reed-57252953",
-      "title": "Freedom of Information Solicitor",
+      "id": "reed-57252956",
+      "title": "Knowledge Barrister",
       "company": "The Legists",
       "location": "Greater Manchester",
-      "url": "https://www.reed.co.uk/jobs/freedom-of-information-solicitor/57252953",
+      "url": "https://www.reed.co.uk/jobs/knowledge-barrister/57252956",
       "salary_min": 50001.0,
       "salary_max": 65000.0,
       "posted_date": "18/08/2026",
@@ -279,11 +291,11 @@
       "sector": "fin"
     },
     {
-      "id": "reed-57326824",
-      "title": "Graduate Management Trainee - Bolton",
+      "id": "reed-57326997",
+      "title": "Graduate Management Trainee - Manchester",
       "company": "Enterprise Mobility",
-      "location": "BL32ND",
-      "url": "https://www.reed.co.uk/jobs/graduate-management-trainee-bolton/57326824",
+      "location": "M112PL",
+      "url": "https://www.reed.co.uk/jobs/graduate-management-trainee-manchester/57326997",
       "salary_min": null,
       "salary_max": null,
       "posted_date": "09/09/2026",
@@ -291,11 +303,11 @@
       "sector": "fin"
     },
     {
-      "id": "reed-57326997",
-      "title": "Graduate Management Trainee - Manchester",
+      "id": "reed-57326824",
+      "title": "Graduate Management Trainee - Bolton",
       "company": "Enterprise Mobility",
-      "location": "M112PL",
-      "url": "https://www.reed.co.uk/jobs/graduate-management-trainee-manchester/57326997",
+      "location": "BL32ND",
+      "url": "https://www.reed.co.uk/jobs/graduate-management-trainee-bolton/57326824",
       "salary_min": null,
       "salary_max": null,
       "posted_date": "09/09/2026",
