@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-01T13:19:11.626943+00:00",
-  "count": 27,
+  "updated": "2026-10-02T12:38:32.152056+00:00",
+  "count": 28,
   "jobs": [
     {
       "id": "reed-57281103",
@@ -23,6 +23,18 @@
       "salary_min": 20.0,
       "salary_max": 22.0,
       "posted_date": "25/09/2026",
+      "source": "Reed",
+      "sector": "fin"
+    },
+    {
+      "id": "reed-57388738",
+      "title": "Knowledge Development Lawyer - Planning",
+      "company": "The Legists",
+      "location": "Greater Manchester",
+      "url": "https://www.reed.co.uk/jobs/knowledge-development-lawyer-planning/57388738",
+      "salary_min": 70001.0,
+      "salary_max": 80000.0,
+      "posted_date": "24/09/2026",
       "source": "Reed",
       "sector": "fin"
     },
@@ -51,18 +63,6 @@
       "sector": "fin"
     },
     {
-      "id": "reed-57388738",
-      "title": "Knowledge Development Lawyer - Planning",
-      "company": "The Legists",
-      "location": "Greater Manchester",
-      "url": "https://www.reed.co.uk/jobs/knowledge-development-lawyer-planning/57388738",
-      "salary_min": 70001.0,
-      "salary_max": 80000.0,
-      "posted_date": "24/09/2026",
-      "source": "Reed",
-      "sector": "fin"
-    },
-    {
       "id": "reed-57263524",
       "title": "Graduate Group Data Analyst",
       "company": "Agility",
@@ -75,16 +75,28 @@
       "sector": "fin"
     },
     {
-      "id": "adzuna-5904113476",
-      "title": "Manufacturing Test Engineer - Graduate Programme 2027",
-      "company": "MBDA Missile Systems",
-      "location": "UK",
-      "url": "https://www.adzuna.co.uk/jobs/details/5904113476?utm_medium=api&utm_source=21e0ce2d",
-      "salary_min": 0,
-      "salary_max": 5,
-      "posted_date": "2026-09-30T17:55:43Z",
+      "id": "adzuna-5907757061",
+      "title": "Manufacturing Engineering Graduate",
+      "company": "SAFRAN UK",
+      "location": "Wolverhampton, West Midlands",
+      "url": "https://www.adzuna.co.uk/jobs/details/5907757061?utm_medium=api&utm_source=21e0ce2d",
+      "salary_min": 26072.85,
+      "salary_max": 26072.85,
+      "posted_date": "2026-10-02T10:50:13Z",
       "source": "Adzuna",
       "sector": "mfg"
+    },
+    {
+      "id": "adzuna-5906235019",
+      "title": "2027 Data Scientist Graduate Programme - Insurance Consulting - London/Reigate",
+      "company": "WTW",
+      "location": "London, UK",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5906235019?se=ODPzLF6-8RGg86qnhZQLEg&utm_medium=api&utm_source=21e0ce2d&v=CBA16E5C966D7ED2A45B904C7C73590E676D8766",
+      "salary_min": 41421.98,
+      "salary_max": 41421.98,
+      "posted_date": "2026-10-01T20:57:39Z",
+      "source": "Adzuna",
+      "sector": "fin"
     },
     {
       "id": "adzuna-5902866655",
@@ -127,7 +139,7 @@
       "title": "Manufacturing Test Engineer - Graduate Programme 2027",
       "company": "MBDA",
       "location": "Stevenage, Hertfordshire",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5885917271?se=hqD_q5q98RGHHdye0NMN8A&utm_medium=api&utm_source=21e0ce2d&v=0A00275D6D8879A77B327448B2F4A7D21208B19F",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5885917271?se=nuphKF6-8RGEDda-ipbdWA&utm_medium=api&utm_source=21e0ce2d&v=0A00275D6D8879A77B327448B2F4A7D21208B19F",
       "salary_min": 36000,
       "salary_max": 36000,
       "posted_date": "2026-09-16T10:41:20Z",
@@ -139,7 +151,7 @@
       "title": "2027 Technology Analyst AI and Data Science Graduate Apprenticeship Programme Glasgow",
       "company": "Barclays",
       "location": "Glasgow, Scotland",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5881127555?se=0EeWsJq98RGJ7d_qm2f-vg&utm_medium=api&utm_source=21e0ce2d&v=F02378973655791FC4D5D71F1320CF1D6EE77308",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5881127555?se=ODPzLF6-8RGg86qnhZQLEg&utm_medium=api&utm_source=21e0ce2d&v=F02378973655791FC4D5D71F1320CF1D6EE77308",
       "salary_min": 25200,
       "salary_max": 25200,
       "posted_date": "2026-09-12T16:50:59Z",
@@ -159,18 +171,6 @@
       "sector": "aero"
     },
     {
-      "id": "adzuna-5873562597",
-      "title": "GE Aerospace Aeronautical/Aerospace/Mechanical Engineering - (Engines) - 12 Month Placement",
-      "company": "GE Aerospace",
-      "location": "Cardiff, Cardiff County",
-      "url": "https://www.adzuna.co.uk/jobs/details/5873562597?utm_medium=api&utm_source=21e0ce2d",
-      "salary_min": 39518.8,
-      "salary_max": 39518.8,
-      "posted_date": "2026-09-07T02:09:05Z",
-      "source": "Adzuna",
-      "sector": "aero"
-    },
-    {
       "id": "adzuna-5873562601",
       "title": "GE Aerospace Aeronautical/Aerospace/Mechanical Engineering - (Engines) - 12 Month Placement",
       "company": "GE Aerospace",
@@ -178,6 +178,18 @@
       "url": "https://www.adzuna.co.uk/jobs/details/5873562601?utm_medium=api&utm_source=21e0ce2d",
       "salary_min": 43178.16,
       "salary_max": 43178.16,
+      "posted_date": "2026-09-07T02:09:05Z",
+      "source": "Adzuna",
+      "sector": "aero"
+    },
+    {
+      "id": "adzuna-5873562597",
+      "title": "GE Aerospace Aeronautical/Aerospace/Mechanical Engineering - (Engines) - 12 Month Placement",
+      "company": "GE Aerospace",
+      "location": "Cardiff, Cardiff County",
+      "url": "https://www.adzuna.co.uk/jobs/details/5873562597?utm_medium=api&utm_source=21e0ce2d",
+      "salary_min": 39499.85,
+      "salary_max": 39499.85,
       "posted_date": "2026-09-07T02:09:05Z",
       "source": "Adzuna",
       "sector": "aero"
@@ -212,8 +224,8 @@
       "company": "Stantec",
       "location": "Cardiff, Cardiff County",
       "url": "https://www.adzuna.co.uk/jobs/details/5828558634?utm_medium=api&utm_source=21e0ce2d",
-      "salary_min": 36683.36,
-      "salary_max": 36683.36,
+      "salary_min": 36690.84,
+      "salary_max": 36690.84,
       "posted_date": "2026-08-05T02:20:20Z",
       "source": "Adzuna",
       "sector": "mfg"
@@ -243,11 +255,11 @@
       "sector": "fin"
     },
     {
-      "id": "reed-57252953",
-      "title": "Freedom of Information Solicitor",
+      "id": "reed-57252956",
+      "title": "Knowledge Barrister",
       "company": "The Legists",
       "location": "Greater Manchester",
-      "url": "https://www.reed.co.uk/jobs/freedom-of-information-solicitor/57252953",
+      "url": "https://www.reed.co.uk/jobs/knowledge-barrister/57252956",
       "salary_min": 50001.0,
       "salary_max": 65000.0,
       "posted_date": "18/08/2026",
@@ -255,11 +267,11 @@
       "sector": "fin"
     },
     {
-      "id": "reed-57252956",
-      "title": "Knowledge Barrister",
+      "id": "reed-57252953",
+      "title": "Freedom of Information Solicitor",
       "company": "The Legists",
       "location": "Greater Manchester",
-      "url": "https://www.reed.co.uk/jobs/knowledge-barrister/57252956",
+      "url": "https://www.reed.co.uk/jobs/freedom-of-information-solicitor/57252953",
       "salary_min": 50001.0,
       "salary_max": 65000.0,
       "posted_date": "18/08/2026",
