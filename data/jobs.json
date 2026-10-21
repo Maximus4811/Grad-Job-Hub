@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-20T11:40:42.463790+00:00",
-  "count": 22,
+  "updated": "2026-10-21T11:52:15.527141+00:00",
+  "count": 24,
   "jobs": [
     {
       "id": "reed-57394561",
@@ -13,6 +13,18 @@
       "posted_date": "25/09/2026",
       "source": "Reed",
       "sector": "fin"
+    },
+    {
+      "id": "adzuna-5936492681",
+      "title": "Manufacturing Excellence Manager",
+      "company": "Essity",
+      "location": "Newcastle Upon Tyne, Tyne & Wear",
+      "url": "https://www.adzuna.co.uk/jobs/details/5936492681?utm_medium=api&utm_source=21e0ce2d",
+      "salary_min": 66050.38,
+      "salary_max": 66050.38,
+      "posted_date": "2026-10-21T09:44:51Z",
+      "source": "Adzuna",
+      "sector": "mfg"
     },
     {
       "id": "adzuna-5926914421",
@@ -55,7 +67,7 @@
       "title": "Engineering Graduate (Bespoke Manufacturing)",
       "company": "Ernest Gordon Recruitment Limited",
       "location": "London, UK",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5926131758?se=XhGWD3vM8RGiTIlgDQXUbQ&utm_medium=api&utm_source=21e0ce2d&v=4263A9B027052D176A4F0FFB5C3C7738C1B02B45",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5926131758?se=lmAX10XN8RGPC9RVczJhRA&utm_medium=api&utm_source=21e0ce2d&v=4263A9B027052D176A4F0FFB5C3C7738C1B02B45",
       "salary_min": 28000,
       "salary_max": 35000,
       "posted_date": "2026-10-13T19:17:03Z",
@@ -127,7 +139,7 @@
       "title": "Manufacturing Engineering Graduate",
       "company": "SAFRAN UK",
       "location": "Wolverhampton, West Midlands",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5907757061?se=XhGWD3vM8RGiTIlgDQXUbQ&utm_medium=api&utm_source=21e0ce2d&v=76B2474860439D3912170628B016BCEBD0CA4CCE",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5907757061?se=lmAX10XN8RGPC9RVczJhRA&utm_medium=api&utm_source=21e0ce2d&v=76B2474860439D3912170628B016BCEBD0CA4CCE",
       "salary_min": 26072.85,
       "salary_max": 26072.85,
       "posted_date": "2026-10-02T10:50:13Z",
@@ -151,7 +163,7 @@
       "title": "Manufacturing Test Engineer - Graduate Programme 2027",
       "company": "MBDA",
       "location": "Stevenage, Hertfordshire",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5885917271?se=XhGWD3vM8RGiTIlgDQXUbQ&utm_medium=api&utm_source=21e0ce2d&v=0A00275D6D8879A77B327448B2F4A7D21208B19F",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5885917271?se=lmAX10XN8RGPC9RVczJhRA&utm_medium=api&utm_source=21e0ce2d&v=0A00275D6D8879A77B327448B2F4A7D21208B19F",
       "salary_min": 36000,
       "salary_max": 36000,
       "posted_date": "2026-09-16T10:41:20Z",
@@ -163,7 +175,7 @@
       "title": "2027 Technology Analyst AI and Data Science Graduate Apprenticeship Programme Glasgow",
       "company": "Barclays",
       "location": "Glasgow, Scotland",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5881127555?se=dOBMFHvM8RGDdvJW8eCByg&utm_medium=api&utm_source=21e0ce2d&v=F02378973655791FC4D5D71F1320CF1D6EE77308",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5881127555?se=eBTS20XN8RGLufCupiP2fQ&utm_medium=api&utm_source=21e0ce2d&v=F02378973655791FC4D5D71F1320CF1D6EE77308",
       "salary_min": 25200,
       "salary_max": 25200,
       "posted_date": "2026-09-12T16:50:59Z",
@@ -195,6 +207,18 @@
       "sector": "mfg"
     },
     {
+      "id": "reed-57476944",
+      "title": "Restructuring Advisory Graduate",
+      "company": "K3 Advisory Group",
+      "location": "M25NT",
+      "url": "https://www.reed.co.uk/jobs/restructuring-advisory-graduate/57476944",
+      "salary_min": 28000.0,
+      "salary_max": 28000.0,
+      "posted_date": "20/10/2026",
+      "source": "Reed",
+      "sector": "fin"
+    },
+    {
       "id": "reed-57359200",
       "title": "Graduate Sales Development Representative",
       "company": "Celsius Graduate Recruitment Limited",
@@ -208,25 +232,13 @@
     },
     {
       "id": "reed-57451715",
-      "title": "Commercial Surveying Apprentice - Manchester (September 2027 Start)",
+      "title": "Quantity Surveying Apprentice - Manchester (September 2027 Start)",
       "company": "JLL",
       "location": "Manchester",
-      "url": "https://www.reed.co.uk/jobs/commercial-surveying-apprentice-manchester-september-2027-start/57451715",
+      "url": "https://www.reed.co.uk/jobs/quantity-surveying-apprentice-manchester-september-2027-start/57451715",
       "salary_min": 26300.0,
       "salary_max": 26300.0,
       "posted_date": "13/10/2026",
-      "source": "Reed",
-      "sector": "fin"
-    },
-    {
-      "id": "reed-57326824",
-      "title": "Graduate Management Trainee - Bolton",
-      "company": "Enterprise Mobility",
-      "location": "BL32ND",
-      "url": "https://www.reed.co.uk/jobs/graduate-management-trainee-bolton/57326824",
-      "salary_min": null,
-      "salary_max": null,
-      "posted_date": "09/09/2026",
       "source": "Reed",
       "sector": "fin"
     },
@@ -236,6 +248,18 @@
       "company": "Enterprise Mobility",
       "location": "M112PL",
       "url": "https://www.reed.co.uk/jobs/graduate-management-trainee-manchester/57326997",
+      "salary_min": null,
+      "salary_max": null,
+      "posted_date": "09/09/2026",
+      "source": "Reed",
+      "sector": "fin"
+    },
+    {
+      "id": "reed-57326824",
+      "title": "Graduate Management Trainee - Bolton",
+      "company": "Enterprise Mobility",
+      "location": "BL32ND",
+      "url": "https://www.reed.co.uk/jobs/graduate-management-trainee-bolton/57326824",
       "salary_min": null,
       "salary_max": null,
       "posted_date": "09/09/2026",
