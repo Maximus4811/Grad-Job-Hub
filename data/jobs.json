@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-22T11:55:47.281676+00:00",
-  "count": 24,
+  "updated": "2026-10-23T11:42:05.555422+00:00",
+  "count": 20,
   "jobs": [
     {
       "id": "reed-57394561",
@@ -12,6 +12,18 @@
       "salary_max": 22.0,
       "posted_date": "25/09/2026",
       "source": "Reed",
+      "sector": "fin"
+    },
+    {
+      "id": "adzuna-5938288724",
+      "title": "2027 Data Scientist Graduate Programme - Insurance Consulting - London/Reigate",
+      "company": "WTW",
+      "location": "London, UK",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5938288724?se=UPcOxdbO8RGuj6BgF4INug&utm_medium=api&utm_source=21e0ce2d&v=7F798440C1DE51359AFECEE9AC31D1D0D4C4684D",
+      "salary_min": 41123.63,
+      "salary_max": 41123.63,
+      "posted_date": "2026-10-22T20:12:53Z",
+      "source": "Adzuna",
       "sector": "fin"
     },
     {
@@ -51,18 +63,6 @@
       "sector": "mfg"
     },
     {
-      "id": "adzuna-5926132769",
-      "title": "2027 Data Scientist Graduate Programme - Insurance Consulting - London/Reigate",
-      "company": "WTW",
-      "location": "London, UK",
-      "url": "https://www.adzuna.co.uk/jobs/details/5926132769?utm_medium=api&utm_source=21e0ce2d",
-      "salary_min": 41123.63,
-      "salary_max": 41123.63,
-      "posted_date": "2026-10-13T19:21:13Z",
-      "source": "Adzuna",
-      "sector": "fin"
-    },
-    {
       "id": "adzuna-5926131758",
       "title": "Engineering Graduate (Bespoke Manufacturing)",
       "company": "Ernest Gordon Recruitment Limited",
@@ -79,7 +79,7 @@
       "title": "Chemical and Process Engineering Graduate Programme",
       "company": "Atkins Global",
       "location": "Belfast, Northern Ireland",
-      "url": "https://www.adzuna.co.uk/jobs/details/5923579227?utm_medium=api&utm_source=21e0ce2d",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5923579227?se=cmlHwdbO8RGt34k75JmVyA&utm_medium=api&utm_source=21e0ce2d&v=4680B63B44A071472A99C65CB7CC280C86E4D868",
       "salary_min": 30000,
       "salary_max": 30000,
       "posted_date": "2026-10-11T21:04:31Z",
@@ -91,7 +91,7 @@
       "title": "2027 Industrial Process Engineering Graduate",
       "company": "Thales UK Limited",
       "location": "Belfast, Northern Ireland",
-      "url": "https://www.adzuna.co.uk/jobs/details/5913839765?utm_medium=api&utm_source=21e0ce2d",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5913839765?se=cmlHwdbO8RGt34k75JmVyA&utm_medium=api&utm_source=21e0ce2d&v=8CB04479F70B38228CFC3CB19EE2A435281D448E",
       "salary_min": 34659.8,
       "salary_max": 34659.8,
       "posted_date": "2026-10-06T14:18:57Z",
@@ -139,7 +139,7 @@
       "title": "Manufacturing Engineering Graduate",
       "company": "SAFRAN UK",
       "location": "Wolverhampton, West Midlands",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5907757061?se=gI7Xfw_O8RGy64MPQcTPmQ&utm_medium=api&utm_source=21e0ce2d&v=76B2474860439D3912170628B016BCEBD0CA4CCE",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5907757061?se=CBxLwNbO8RGt34k75JmVyA&utm_medium=api&utm_source=21e0ce2d&v=76B2474860439D3912170628B016BCEBD0CA4CCE",
       "salary_min": 26072.85,
       "salary_max": 26072.85,
       "posted_date": "2026-10-02T10:50:13Z",
@@ -163,7 +163,7 @@
       "title": "Manufacturing Test Engineer - Graduate Programme 2027",
       "company": "MBDA",
       "location": "Stevenage, Hertfordshire",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5885917271?se=gI7Xfw_O8RGy64MPQcTPmQ&utm_medium=api&utm_source=21e0ce2d&v=0A00275D6D8879A77B327448B2F4A7D21208B19F",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5885917271?se=CBxLwNbO8RGt34k75JmVyA&utm_medium=api&utm_source=21e0ce2d&v=0A00275D6D8879A77B327448B2F4A7D21208B19F",
       "salary_min": 36000,
       "salary_max": 36000,
       "posted_date": "2026-09-16T10:41:20Z",
@@ -175,7 +175,7 @@
       "title": "2027 Technology Analyst AI and Data Science Graduate Apprenticeship Programme Glasgow",
       "company": "Barclays",
       "location": "Glasgow, Scotland",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5881127555?se=IERzhA_O8RGmh9cQ9WEjLg&utm_medium=api&utm_source=21e0ce2d&v=F02378973655791FC4D5D71F1320CF1D6EE77308",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5881127555?se=UPcOxdbO8RGuj6BgF4INug&utm_medium=api&utm_source=21e0ce2d&v=F02378973655791FC4D5D71F1320CF1D6EE77308",
       "salary_min": 25200,
       "salary_max": 25200,
       "posted_date": "2026-09-12T16:50:59Z",
@@ -207,18 +207,6 @@
       "sector": "mfg"
     },
     {
-      "id": "reed-57476944",
-      "title": "Restructuring Advisory Graduate",
-      "company": "K3 Advisory Group",
-      "location": "M25NT",
-      "url": "https://www.reed.co.uk/jobs/restructuring-advisory-graduate/57476944",
-      "salary_min": 28000.0,
-      "salary_max": 28000.0,
-      "posted_date": "20/10/2026",
-      "source": "Reed",
-      "sector": "fin"
-    },
-    {
       "id": "reed-57359200",
       "title": "Graduate Sales Development Representative",
       "company": "Celsius Graduate Recruitment Limited",
@@ -239,42 +227,6 @@
       "salary_min": 26300.0,
       "salary_max": 26300.0,
       "posted_date": "13/10/2026",
-      "source": "Reed",
-      "sector": "fin"
-    },
-    {
-      "id": "reed-57326997",
-      "title": "Graduate Management Trainee - Manchester",
-      "company": "Enterprise Mobility",
-      "location": "M112PL",
-      "url": "https://www.reed.co.uk/jobs/graduate-management-trainee-manchester/57326997",
-      "salary_min": null,
-      "salary_max": null,
-      "posted_date": "09/09/2026",
-      "source": "Reed",
-      "sector": "fin"
-    },
-    {
-      "id": "reed-57326886",
-      "title": "Graduate Management Trainee - Stockport",
-      "company": "Enterprise Mobility",
-      "location": "SK41HJ",
-      "url": "https://www.reed.co.uk/jobs/graduate-management-trainee-stockport/57326886",
-      "salary_min": null,
-      "salary_max": null,
-      "posted_date": "09/09/2026",
-      "source": "Reed",
-      "sector": "fin"
-    },
-    {
-      "id": "reed-57326824",
-      "title": "Graduate Management Trainee - Bolton",
-      "company": "Enterprise Mobility",
-      "location": "BL32ND",
-      "url": "https://www.reed.co.uk/jobs/graduate-management-trainee-bolton/57326824",
-      "salary_min": null,
-      "salary_max": null,
-      "posted_date": "09/09/2026",
       "source": "Reed",
       "sector": "fin"
     },
