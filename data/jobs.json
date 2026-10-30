@@ -1,7 +1,19 @@
 {
-  "updated": "2026-10-29T13:05:08.475791+00:00",
+  "updated": "2026-10-30T12:58:25.576773+00:00",
   "count": 17,
   "jobs": [
+    {
+      "id": "reed-57507239",
+      "title": "Entry-Level ESG Risk & Data Analyst",
+      "company": "Regal Brooke Limited",
+      "location": "M139PL",
+      "url": "https://www.reed.co.uk/jobs/entry-level-esg-risk-data-analyst/57507239",
+      "salary_min": 38000.0,
+      "salary_max": 38000.0,
+      "posted_date": "30/10/2026",
+      "source": "Reed",
+      "sector": "fin"
+    },
     {
       "id": "reed-57394561",
       "title": "Graduate Continuous Improvement Analyst",
@@ -91,7 +103,7 @@
       "title": "2027 Industrial Process Engineering Graduate",
       "company": "Thales UK Limited",
       "location": "Belfast, Northern Ireland",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5913839765?se=SqDiWZnT8RG0PNr2Vz2W6w&utm_medium=api&utm_source=21e0ce2d&v=8CB04479F70B38228CFC3CB19EE2A435281D448E",
+      "url": "https://www.adzuna.co.uk/jobs/details/5913839765?utm_medium=api&utm_source=21e0ce2d",
       "salary_min": 34659.8,
       "salary_max": 34659.8,
       "posted_date": "2026-10-06T14:18:57Z",
@@ -151,7 +163,7 @@
       "title": "Manufacturing Test Engineer - Graduate Programme 2027",
       "company": "MBDA",
       "location": "Stevenage, Hertfordshire",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5885917271?se=PNbeWJnT8RG2hrNxl1PSug&utm_medium=api&utm_source=21e0ce2d&v=0A00275D6D8879A77B327448B2F4A7D21208B19F",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5885917271?se=hPQGk2HU8RGbzOofqBVJtA&utm_medium=api&utm_source=21e0ce2d&v=0A00275D6D8879A77B327448B2F4A7D21208B19F",
       "salary_min": 36000,
       "salary_max": 36000,
       "posted_date": "2026-09-16T10:41:20Z",
@@ -163,23 +175,11 @@
       "title": "2027 Technology Analyst AI and Data Science Graduate Apprenticeship Programme Glasgow",
       "company": "Barclays",
       "location": "Glasgow, Scotland",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5881127555?se=DrqXXZnT8RGQXO40cb9njA&utm_medium=api&utm_source=21e0ce2d&v=F02378973655791FC4D5D71F1320CF1D6EE77308",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5881127555?se=-IXZl2HU8RG9OdkpCvlxfA&utm_medium=api&utm_source=21e0ce2d&v=F02378973655791FC4D5D71F1320CF1D6EE77308",
       "salary_min": 25200,
       "salary_max": 25200,
       "posted_date": "2026-09-12T16:50:59Z",
       "source": "Adzuna",
-      "sector": "fin"
-    },
-    {
-      "id": "reed-57359200",
-      "title": "Graduate Sales Development Representative",
-      "company": "Celsius Graduate Recruitment Limited",
-      "location": "M16ED",
-      "url": "https://www.reed.co.uk/jobs/graduate-sales-development-representative/57359200",
-      "salary_min": 30000.0,
-      "salary_max": 40000.0,
-      "posted_date": "17/09/2026",
-      "source": "Reed",
       "sector": "fin"
     },
     {
