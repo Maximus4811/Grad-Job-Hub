@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-02T15:58:09.744089+00:00",
-  "count": 26,
+  "updated": "2026-11-03T14:18:58.967265+00:00",
+  "count": 25,
   "jobs": [
     {
       "id": "reed-57507239",
@@ -83,18 +83,6 @@
       "salary_min": 35560.93,
       "salary_max": 35560.93,
       "posted_date": "2026-10-31T06:12:19Z",
-      "source": "Adzuna",
-      "sector": "mfg"
-    },
-    {
-      "id": "adzuna-5947474609",
-      "title": "Process/ Chemical Engineering Graduate",
-      "company": "Tarmac Trading Limited",
-      "location": "Innerwick, Dunbar",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5947474609?se=nEc4L9bW8RGZ_cfEpAkyOw&utm_medium=api&utm_source=21e0ce2d&v=78A6F88D1E1A98C06EAC868C0DFD220AB7077B13",
-      "salary_min": 35918.88,
-      "salary_max": 35918.88,
-      "posted_date": "2026-10-31T02:23:53Z",
       "source": "Adzuna",
       "sector": "mfg"
     },
@@ -187,7 +175,7 @@
       "title": "2027 Data Scientist Graduate Programme - Insurance Consulting - London/Reigate",
       "company": "WTW",
       "location": "London, UK",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5938288724?se=Fvn5MtbW8RGBj5QG6hIMgA&utm_medium=api&utm_source=21e0ce2d&v=7F798440C1DE51359AFECEE9AC31D1D0D4C4684D",
+      "url": "https://www.adzuna.co.uk/jobs/details/5938288724?utm_medium=api&utm_source=21e0ce2d",
       "salary_min": 41123.63,
       "salary_max": 41123.63,
       "posted_date": "2026-10-22T20:12:53Z",
@@ -235,7 +223,7 @@
       "title": "Engineering Graduate (Bespoke Manufacturing)",
       "company": "Ernest Gordon Recruitment Limited",
       "location": "London, UK",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5926131758?se=Eks9LtbW8RGfjaEYrywE8Q&utm_medium=api&utm_source=21e0ce2d&v=4263A9B027052D176A4F0FFB5C3C7738C1B02B45",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5926131758?se=fBfsfZHX8RGlctkbTWCkpA&utm_medium=api&utm_source=21e0ce2d&v=4263A9B027052D176A4F0FFB5C3C7738C1B02B45",
       "salary_min": 28000,
       "salary_max": 35000,
       "posted_date": "2026-10-13T19:17:03Z",
@@ -247,7 +235,7 @@
       "title": "2027 Industrial Process Engineering Graduate",
       "company": "Thales UK Limited",
       "location": "Belfast, Northern Ireland",
-      "url": "https://www.adzuna.co.uk/jobs/details/5913839765?utm_medium=api&utm_source=21e0ce2d",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5913839765?se=BszUfpHX8RGlctkbTWCkpA&utm_medium=api&utm_source=21e0ce2d&v=8CB04479F70B38228CFC3CB19EE2A435281D448E",
       "salary_min": 34659.8,
       "salary_max": 34659.8,
       "posted_date": "2026-10-06T14:18:57Z",
@@ -283,7 +271,7 @@
       "title": "Manufacturing Test Engineer - Graduate Programme 2027",
       "company": "MBDA",
       "location": "Stevenage, Hertfordshire",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5885917271?se=Eks9LtbW8RGfjaEYrywE8Q&utm_medium=api&utm_source=21e0ce2d&v=0A00275D6D8879A77B327448B2F4A7D21208B19F",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5885917271?se=fBfsfZHX8RGlctkbTWCkpA&utm_medium=api&utm_source=21e0ce2d&v=0A00275D6D8879A77B327448B2F4A7D21208B19F",
       "salary_min": 36000,
       "salary_max": 36000,
       "posted_date": "2026-09-16T10:41:20Z",
