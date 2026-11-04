@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-03T14:18:58.967265+00:00",
-  "count": 25,
+  "updated": "2026-11-04T14:35:32.531504+00:00",
+  "count": 33,
   "jobs": [
     {
       "id": "reed-57507239",
@@ -63,18 +63,6 @@
       "sector": "mfg"
     },
     {
-      "id": "adzuna-5947740162",
-      "title": "Process / Chemical Engineering Graduate",
-      "company": "Tarmac Resourcing",
-      "location": "East Aberthaw, Barry",
-      "url": "https://www.adzuna.co.uk/jobs/details/5947740162?utm_medium=api&utm_source=21e0ce2d",
-      "salary_min": 33647.49,
-      "salary_max": 33647.49,
-      "posted_date": "2026-10-31T06:12:19Z",
-      "source": "Adzuna",
-      "sector": "mfg"
-    },
-    {
       "id": "adzuna-5947740219",
       "title": "Process/ Chemical Engineering Graduate",
       "company": "Tarmac Resourcing",
@@ -82,6 +70,18 @@
       "url": "https://www.adzuna.co.uk/jobs/details/5947740219?utm_medium=api&utm_source=21e0ce2d",
       "salary_min": 35560.93,
       "salary_max": 35560.93,
+      "posted_date": "2026-10-31T06:12:19Z",
+      "source": "Adzuna",
+      "sector": "mfg"
+    },
+    {
+      "id": "adzuna-5947740162",
+      "title": "Process / Chemical Engineering Graduate",
+      "company": "Tarmac Resourcing",
+      "location": "East Aberthaw, Barry",
+      "url": "https://www.adzuna.co.uk/jobs/details/5947740162?utm_medium=api&utm_source=21e0ce2d",
+      "salary_min": 33647.49,
+      "salary_max": 33647.49,
       "posted_date": "2026-10-31T06:12:19Z",
       "source": "Adzuna",
       "sector": "mfg"
@@ -223,7 +223,7 @@
       "title": "Engineering Graduate (Bespoke Manufacturing)",
       "company": "Ernest Gordon Recruitment Limited",
       "location": "London, UK",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5926131758?se=fBfsfZHX8RGlctkbTWCkpA&utm_medium=api&utm_source=21e0ce2d&v=4263A9B027052D176A4F0FFB5C3C7738C1B02B45",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5926131758?se=kIZj-FzY8RGyFdNQVvIfrw&utm_medium=api&utm_source=21e0ce2d&v=4263A9B027052D176A4F0FFB5C3C7738C1B02B45",
       "salary_min": 28000,
       "salary_max": 35000,
       "posted_date": "2026-10-13T19:17:03Z",
@@ -231,26 +231,14 @@
       "sector": "mfg"
     },
     {
-      "id": "adzuna-5913839765",
-      "title": "2027 Industrial Process Engineering Graduate",
-      "company": "Thales UK Limited",
-      "location": "Belfast, Northern Ireland",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5913839765?se=BszUfpHX8RGlctkbTWCkpA&utm_medium=api&utm_source=21e0ce2d&v=8CB04479F70B38228CFC3CB19EE2A435281D448E",
-      "salary_min": 34659.8,
-      "salary_max": 34659.8,
-      "posted_date": "2026-10-06T14:18:57Z",
-      "source": "Adzuna",
-      "sector": "mfg"
-    },
-    {
-      "id": "adzuna-5908092280",
+      "id": "adzuna-5911944366",
       "title": "Manufacturing Engineering Graduate",
-      "company": "Safran",
+      "company": "SAFRAN",
       "location": "Wolverhampton, West Midlands",
-      "url": "https://www.adzuna.co.uk/jobs/details/5908092280?utm_medium=api&utm_source=21e0ce2d",
-      "salary_min": 27236.59,
-      "salary_max": 27236.59,
-      "posted_date": "2026-10-02T14:23:48Z",
+      "url": "https://www.adzuna.co.uk/jobs/details/5911944366?utm_medium=api&utm_source=21e0ce2d",
+      "salary_min": 27162.25,
+      "salary_max": 27162.25,
+      "posted_date": "2026-10-05T02:25:30Z",
       "source": "Adzuna",
       "sector": "mfg"
     },
@@ -265,18 +253,6 @@
       "posted_date": "2026-09-20T10:43:17Z",
       "source": "Adzuna",
       "sector": "fin"
-    },
-    {
-      "id": "adzuna-5885917271",
-      "title": "Manufacturing Test Engineer - Graduate Programme 2027",
-      "company": "MBDA",
-      "location": "Stevenage, Hertfordshire",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5885917271?se=fBfsfZHX8RGlctkbTWCkpA&utm_medium=api&utm_source=21e0ce2d&v=0A00275D6D8879A77B327448B2F4A7D21208B19F",
-      "salary_min": 36000,
-      "salary_max": 36000,
-      "posted_date": "2026-09-16T10:41:20Z",
-      "source": "Adzuna",
-      "sector": "mfg"
     },
     {
       "id": "reed-57451715",
@@ -301,6 +277,126 @@
       "posted_date": "07/10/2026",
       "source": "Reed",
       "sector": "fin"
+    },
+    {
+      "id": "reed-57525444",
+      "title": "Graduate Fire Engineer (Manchester)",
+      "company": "AECOM",
+      "location": "Manchester",
+      "url": "https://www.reed.co.uk/jobs/graduate-fire-engineer-manchester/57525444",
+      "salary_min": null,
+      "salary_max": null,
+      "posted_date": "04/11/2026",
+      "source": "Reed",
+      "sector": "aero"
+    },
+    {
+      "id": "reed-57525428",
+      "title": "Senior Structural Engineer",
+      "company": "AECOM",
+      "location": "Manchester",
+      "url": "https://www.reed.co.uk/jobs/senior-structural-engineer/57525428",
+      "salary_min": null,
+      "salary_max": null,
+      "posted_date": "04/11/2026",
+      "source": "Reed",
+      "sector": "aero"
+    },
+    {
+      "id": "reed-57524779",
+      "title": "Graduate Traffic Engineer - Manchester (2027 start)",
+      "company": "AECOM",
+      "location": "Manchester",
+      "url": "https://www.reed.co.uk/jobs/graduate-traffic-engineer-manchester-2027-start/57524779",
+      "salary_min": null,
+      "salary_max": null,
+      "posted_date": "04/11/2026",
+      "source": "Reed",
+      "sector": "mfg"
+    },
+    {
+      "id": "reed-57524858",
+      "title": "Graduate Pavement and Materials Engineer - Manchester (2027 start)",
+      "company": "AECOM",
+      "location": "Manchester",
+      "url": "https://www.reed.co.uk/jobs/graduate-pavement-and-materials-engineer-manchester-2027-start/57524858",
+      "salary_min": null,
+      "salary_max": null,
+      "posted_date": "04/11/2026",
+      "source": "Reed",
+      "sector": "mfg"
+    },
+    {
+      "id": "reed-57524742",
+      "title": "Graduate Transport Planner - Manchester (2027 start)",
+      "company": "AECOM",
+      "location": "Manchester",
+      "url": "https://www.reed.co.uk/jobs/graduate-transport-planner-manchester-2027-start/57524742",
+      "salary_min": null,
+      "salary_max": null,
+      "posted_date": "04/11/2026",
+      "source": "Reed",
+      "sector": "mfg"
+    },
+    {
+      "id": "reed-57525919",
+      "title": "Senior Electrical Design Engineer - Distribution",
+      "company": "AECOM",
+      "location": "Manchester",
+      "url": "https://www.reed.co.uk/jobs/senior-electrical-design-engineer-distribution/57525919",
+      "salary_min": null,
+      "salary_max": null,
+      "posted_date": "04/11/2026",
+      "source": "Reed",
+      "sector": "mfg"
+    },
+    {
+      "id": "reed-57524703",
+      "title": "Graduate Rail Systems Engineering & Systems Assurance (SESA) Engineer - Manchester (Summer 2027)",
+      "company": "AECOM",
+      "location": "Manchester",
+      "url": "https://www.reed.co.uk/jobs/graduate-rail-systems-engineering-systems-assurance-sesa-engineer-manchester-summer-2027/57524703",
+      "salary_min": null,
+      "salary_max": null,
+      "posted_date": "04/11/2026",
+      "source": "Reed",
+      "sector": "mfg"
+    },
+    {
+      "id": "reed-57526008",
+      "title": "Bridge Engineer",
+      "company": "AECOM",
+      "location": "Manchester",
+      "url": "https://www.reed.co.uk/jobs/bridge-engineer/57526008",
+      "salary_min": null,
+      "salary_max": null,
+      "posted_date": "04/11/2026",
+      "source": "Reed",
+      "sector": "mfg"
+    },
+    {
+      "id": "reed-57524926",
+      "title": "Senior Bridge Engineer",
+      "company": "AECOM",
+      "location": "Manchester",
+      "url": "https://www.reed.co.uk/jobs/senior-bridge-engineer/57524926",
+      "salary_min": null,
+      "salary_max": null,
+      "posted_date": "04/11/2026",
+      "source": "Reed",
+      "sector": "mfg"
+    },
+    {
+      "id": "reed-57525004",
+      "title": "Senior/ Principal Transport Planner",
+      "company": "AECOM",
+      "location": "Manchester",
+      "url": "https://www.reed.co.uk/jobs/senior-principal-transport-planner/57525004",
+      "salary_min": null,
+      "salary_max": null,
+      "posted_date": "04/11/2026",
+      "source": "Reed",
+      "sector": "mfg"
     }
   ]
 }
