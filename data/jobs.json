@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-04T14:35:32.531504+00:00",
-  "count": 33,
+  "updated": "2026-11-05T14:41:23.623233+00:00",
+  "count": 35,
   "jobs": [
     {
       "id": "reed-57507239",
@@ -37,6 +37,30 @@
       "posted_date": "23/10/2026",
       "source": "Reed",
       "sector": "fin"
+    },
+    {
+      "id": "adzuna-5953379198",
+      "title": "Senior Cable/Circuit Design Engineer",
+      "company": "UK Power Networks",
+      "location": "Pound Hill, Crawley",
+      "url": "https://www.adzuna.co.uk/jobs/details/5953379198?utm_medium=api&utm_source=21e0ce2d",
+      "salary_min": 64636.73,
+      "salary_max": 64636.73,
+      "posted_date": "2026-11-04T19:22:43Z",
+      "source": "Adzuna",
+      "sector": "mfg"
+    },
+    {
+      "id": "adzuna-5953051114",
+      "title": "Senior Cable/Circuit Design Engineer",
+      "company": "UK Power Networks  Ltd",
+      "location": "Crawley, West Sussex",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5953051114?se=zqn-9CbZ8RGjs5qvLAQ_DA&utm_medium=api&utm_source=21e0ce2d&v=49CA1F1E13060E08E123C8A0CCA441C647077609",
+      "salary_min": 60089,
+      "salary_max": 60089,
+      "posted_date": "2026-11-04T14:53:18Z",
+      "source": "Adzuna",
+      "sector": "mfg"
     },
     {
       "id": "adzuna-5949418126",
@@ -83,6 +107,18 @@
       "salary_min": 33647.49,
       "salary_max": 33647.49,
       "posted_date": "2026-10-31T06:12:19Z",
+      "source": "Adzuna",
+      "sector": "mfg"
+    },
+    {
+      "id": "adzuna-5947474609",
+      "title": "Process/ Chemical Engineering Graduate",
+      "company": "Tarmac Trading Limited",
+      "location": "Innerwick, Dunbar",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5947474609?se=zqn-9CbZ8RGjs5qvLAQ_DA&utm_medium=api&utm_source=21e0ce2d&v=78A6F88D1E1A98C06EAC868C0DFD220AB7077B13",
+      "salary_min": 35918.88,
+      "salary_max": 35918.88,
+      "posted_date": "2026-10-31T02:23:53Z",
       "source": "Adzuna",
       "sector": "mfg"
     },
@@ -223,22 +259,10 @@
       "title": "Engineering Graduate (Bespoke Manufacturing)",
       "company": "Ernest Gordon Recruitment Limited",
       "location": "London, UK",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5926131758?se=kIZj-FzY8RGyFdNQVvIfrw&utm_medium=api&utm_source=21e0ce2d&v=4263A9B027052D176A4F0FFB5C3C7738C1B02B45",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5926131758?se=wPUR9CbZ8RGW_54doEq5rw&utm_medium=api&utm_source=21e0ce2d&v=4263A9B027052D176A4F0FFB5C3C7738C1B02B45",
       "salary_min": 28000,
       "salary_max": 35000,
       "posted_date": "2026-10-13T19:17:03Z",
-      "source": "Adzuna",
-      "sector": "mfg"
-    },
-    {
-      "id": "adzuna-5911944366",
-      "title": "Manufacturing Engineering Graduate",
-      "company": "SAFRAN",
-      "location": "Wolverhampton, West Midlands",
-      "url": "https://www.adzuna.co.uk/jobs/details/5911944366?utm_medium=api&utm_source=21e0ce2d",
-      "salary_min": 27162.25,
-      "salary_max": 27162.25,
-      "posted_date": "2026-10-05T02:25:30Z",
       "source": "Adzuna",
       "sector": "mfg"
     },
@@ -339,11 +363,11 @@
       "sector": "mfg"
     },
     {
-      "id": "reed-57525919",
+      "id": "reed-57526100",
       "title": "Senior Electrical Design Engineer - Distribution",
       "company": "AECOM",
       "location": "Manchester",
-      "url": "https://www.reed.co.uk/jobs/senior-electrical-design-engineer-distribution/57525919",
+      "url": "https://www.reed.co.uk/jobs/senior-electrical-design-engineer-distribution/57526100",
       "salary_min": null,
       "salary_max": null,
       "posted_date": "04/11/2026",
