@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T14:19:18.372177+00:00",
+  "updated": "2026-11-07T13:05:07.527850+00:00",
   "count": 39,
   "jobs": [
     {
@@ -11,18 +11,6 @@
       "salary_min": 38000.0,
       "salary_max": 38000.0,
       "posted_date": "30/10/2026",
-      "source": "Reed",
-      "sector": "fin"
-    },
-    {
-      "id": "reed-57394561",
-      "title": "Graduate Continuous Improvement Analyst",
-      "company": "Adecco ",
-      "location": "Manchester",
-      "url": "https://www.reed.co.uk/jobs/graduate-continuous-improvement-analyst/57394561",
-      "salary_min": 20.0,
-      "salary_max": 22.0,
-      "posted_date": "25/09/2026",
       "source": "Reed",
       "sector": "fin"
     },
@@ -68,8 +56,8 @@
       "company": "UK Power Networks",
       "location": "Pound Hill, Crawley",
       "url": "https://www.adzuna.co.uk/jobs/details/5953379198?utm_medium=api&utm_source=21e0ce2d",
-      "salary_min": 64636.73,
-      "salary_max": 64636.73,
+      "salary_min": 64327.41,
+      "salary_max": 64327.41,
       "posted_date": "2026-11-04T19:22:43Z",
       "source": "Adzuna",
       "sector": "mfg"
@@ -79,22 +67,10 @@
       "title": "Senior Cable/Circuit Design Engineer",
       "company": "UK Power Networks  Ltd",
       "location": "Crawley, West Sussex",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5953051114?se=NN7ECe3Z8RG1vq6v8Dghvg&utm_medium=api&utm_source=21e0ce2d&v=49CA1F1E13060E08E123C8A0CCA441C647077609",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5953051114?se=bAc81qva8RGD5Iv7NVeOtg&utm_medium=api&utm_source=21e0ce2d&v=49CA1F1E13060E08E123C8A0CCA441C647077609",
       "salary_min": 59801.44,
       "salary_max": 59801.44,
       "posted_date": "2026-11-04T14:53:18Z",
-      "source": "Adzuna",
-      "sector": "mfg"
-    },
-    {
-      "id": "adzuna-5949418126",
-      "title": "Process/ Chemical Engineering Graduate",
-      "company": "Tarmac",
-      "location": "Buxton, Derbyshire",
-      "url": "https://www.adzuna.co.uk/jobs/details/5949418126?utm_medium=api&utm_source=21e0ce2d",
-      "salary_min": 31750,
-      "salary_max": null,
-      "posted_date": "2026-11-01T15:02:11Z",
       "source": "Adzuna",
       "sector": "mfg"
     },
@@ -104,6 +80,18 @@
       "company": "Tarmac",
       "location": "Dunbar, East Lothian",
       "url": "https://www.adzuna.co.uk/jobs/details/5949418137?utm_medium=api&utm_source=21e0ce2d",
+      "salary_min": 31750,
+      "salary_max": null,
+      "posted_date": "2026-11-01T15:02:11Z",
+      "source": "Adzuna",
+      "sector": "mfg"
+    },
+    {
+      "id": "adzuna-5949418126",
+      "title": "Process/ Chemical Engineering Graduate",
+      "company": "Tarmac",
+      "location": "Buxton, Derbyshire",
+      "url": "https://www.adzuna.co.uk/jobs/details/5949418126?utm_medium=api&utm_source=21e0ce2d",
       "salary_min": 31750,
       "salary_max": null,
       "posted_date": "2026-11-01T15:02:11Z",
@@ -139,7 +127,7 @@
       "title": "Process/ Chemical Engineering Graduate",
       "company": "Tarmac Trading Limited",
       "location": "Innerwick, Dunbar",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5947474609?se=NN7ECe3Z8RG1vq6v8Dghvg&utm_medium=api&utm_source=21e0ce2d&v=78A6F88D1E1A98C06EAC868C0DFD220AB7077B13",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5947474609?se=bAc81qva8RGD5Iv7NVeOtg&utm_medium=api&utm_source=21e0ce2d&v=78A6F88D1E1A98C06EAC868C0DFD220AB7077B13",
       "salary_min": 35918.88,
       "salary_max": 35918.88,
       "posted_date": "2026-10-31T02:23:53Z",
@@ -231,6 +219,18 @@
       "sector": "mfg"
     },
     {
+      "id": "adzuna-5941749129",
+      "title": "Trainee Data Analyst , Finance Graduate , Investment Management Firm",
+      "company": "JJ Search Ltd",
+      "location": "The City, Central London",
+      "url": "https://www.adzuna.co.uk/jobs/details/5941749129?utm_medium=api&utm_source=21e0ce2d",
+      "salary_min": 40000,
+      "salary_max": 40000,
+      "posted_date": "2026-10-25T22:28:12Z",
+      "source": "Adzuna",
+      "sector": "fin"
+    },
+    {
       "id": "adzuna-5938288724",
       "title": "2027 Data Scientist Graduate Programme - Insurance Consulting - London/Reigate",
       "company": "WTW",
@@ -283,7 +283,7 @@
       "title": "Engineering Graduate (Bespoke Manufacturing)",
       "company": "Ernest Gordon Recruitment Limited",
       "location": "London, UK",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5926131758?se=oszrCO3Z8RGIG-nPerk_PQ&utm_medium=api&utm_source=21e0ce2d&v=4263A9B027052D176A4F0FFB5C3C7738C1B02B45",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5926131758?se=5lhE1ava8RGMj86c16zqBQ&utm_medium=api&utm_source=21e0ce2d&v=4263A9B027052D176A4F0FFB5C3C7738C1B02B45",
       "salary_min": 28000,
       "salary_max": 35000,
       "posted_date": "2026-10-13T19:17:03Z",
