@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09T16:24:07.205800+00:00",
+  "updated": "2026-11-10T14:55:18.277639+00:00",
   "count": 38,
   "jobs": [
     {
@@ -25,6 +25,18 @@
       "posted_date": "23/10/2026",
       "source": "Reed",
       "sector": "fin"
+    },
+    {
+      "id": "adzuna-5960209506",
+      "title": "Manufacturing Test Engineer - Graduate Programme 2027",
+      "company": "MBDA",
+      "location": "Stevenage, Hertfordshire",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5960209506?se=qFheuRbd8RG6zPJCbjnURg&utm_medium=api&utm_source=21e0ce2d&v=7903E7EE88A96D556D223741ED59D3FE9EDB1EA6",
+      "salary_min": 36000,
+      "salary_max": 36000,
+      "posted_date": "2026-11-10T09:57:27Z",
+      "source": "Adzuna",
+      "sector": "mfg"
     },
     {
       "id": "adzuna-5955436849",
@@ -67,7 +79,7 @@
       "title": "Senior Cable/Circuit Design Engineer",
       "company": "UK Power Networks  Ltd",
       "location": "Crawley, West Sussex",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5953051114?se=inLw91nc8RG9-b-A2d8A9w&utm_medium=api&utm_source=21e0ce2d&v=49CA1F1E13060E08E123C8A0CCA441C647077609",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5953051114?se=tr5Xuhbd8RG6zPJCbjnURg&utm_medium=api&utm_source=21e0ce2d&v=49CA1F1E13060E08E123C8A0CCA441C647077609",
       "salary_min": 59801.44,
       "salary_max": 59801.44,
       "posted_date": "2026-11-04T14:53:18Z",
@@ -271,7 +283,7 @@
       "title": "Engineering Graduate (Bespoke Manufacturing)",
       "company": "Ernest Gordon Recruitment Limited",
       "location": "London, UK",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5926131758?se=0nv19lnc8RG3qIgPrRjrlQ&utm_medium=api&utm_source=21e0ce2d&v=4263A9B027052D176A4F0FFB5C3C7738C1B02B45",
+      "url": "https://www.adzuna.co.uk/jobs/details/5926131758?utm_medium=api&utm_source=21e0ce2d",
       "salary_min": 28000,
       "salary_max": 35000,
       "posted_date": "2026-10-13T19:17:03Z",
@@ -288,18 +300,6 @@
       "salary_max": 41658.37,
       "posted_date": "2026-09-20T10:43:17Z",
       "source": "Adzuna",
-      "sector": "fin"
-    },
-    {
-      "id": "reed-57451715",
-      "title": "Commercial Surveying Apprentice - Manchester (September 2027 Start)",
-      "company": "JLL",
-      "location": "Manchester",
-      "url": "https://www.reed.co.uk/jobs/commercial-surveying-apprentice-manchester-september-2027-start/57451715",
-      "salary_min": 26300.0,
-      "salary_max": 26300.0,
-      "posted_date": "13/10/2026",
-      "source": "Reed",
       "sector": "fin"
     },
     {
@@ -399,11 +399,11 @@
       "sector": "mfg"
     },
     {
-      "id": "reed-57526100",
+      "id": "reed-57525919",
       "title": "Senior Electrical Design Engineer - Distribution",
       "company": "AECOM",
       "location": "Manchester",
-      "url": "https://www.reed.co.uk/jobs/senior-electrical-design-engineer-distribution/57526100",
+      "url": "https://www.reed.co.uk/jobs/senior-electrical-design-engineer-distribution/57525919",
       "salary_min": null,
       "salary_max": null,
       "posted_date": "04/11/2026",
